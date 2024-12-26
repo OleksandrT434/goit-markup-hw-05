@@ -615,11 +615,11 @@ button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-footer:hover,
 .btn-footer:focus {
     background-color: #404BBF;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon{
@@ -663,7 +663,8 @@ button {
     min-height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
@@ -682,7 +683,9 @@ button {
 .modal-button:focus {
     background-color: #404BBF;
     fill:#fff ;
+    border: none;
 }
+
 .modal-button{
     position: absolute;
     top: 24px;
@@ -700,12 +703,11 @@ button {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-end {
-    width: 8px;
-    height: 8px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .form-wrraper-cont {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     
 }
 
@@ -727,7 +729,9 @@ button {
     height: 40px;
     padding-left: 38px;
     outline: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    outline: transparent;
 }
 .form-user-imput:focus{
     border:1px solid #4D5AE5;
