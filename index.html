@@ -383,9 +383,7 @@
                 <use href="./images/icons.svg#end"></use>
             </svg>
         </button>
-
             <p class="modal-text">Leave your contacts and we will call you back</p>
-        
     <form>
         <div class="form-wrraper-cont">
             <label class="form-user-label" for="form-user">Name</label>
@@ -419,15 +417,16 @@
                 <textarea class="user-comment" id="comment" placeholder="Text-input"></textarea>
         </div>
         <div class="checkbox-user">
-            <input class="checkbox" type="checkbox" name="form-user-checkbox" id="form-user-checkbox">
+            <input class="checkbox visually-hidden" type="checkbox" name="form-user-checkbox" id="form-user-checkbox" required>
             <label class="form-user-checkbox" for="form-user-checkbox"><span class="castom-checkbox">
                 <svg width="10" height="8" class="castom-checkbox-icon">
                 <use href="./images/icons.svg#check"></use>
                 </svg>
-             </span> I accept the terms and conditions of the 
+             </span>I accept the terms and conditions of the 
                 <a href="#" class="private-check">Privacy Policy</a>
             </label>
         </div>
+            <button class="form-btn-submit" type="submit">Send</button>
     </form>
     </div>
 </div>
