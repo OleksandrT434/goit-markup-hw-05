@@ -606,7 +606,10 @@ button {
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
-    cursor: pointer
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 .footer-icon{
     margin-left: 16px;
